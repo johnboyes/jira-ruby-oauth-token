@@ -1,0 +1,31 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (2.2.1)
+    multi_json (1.12.1)
+    mustermann (1.0.0)
+    oauth (0.5.3)
+    rack (2.0.3)
+    rack-protection (2.0.0)
+      rack
+    sinatra (2.0.0)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.0)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  multi_json
+  oauth
+  sinatra
+
+RUBY VERSION
+   ruby 2.3.4p301
+
+BUNDLED WITH
+   1.15.0
